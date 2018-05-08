@@ -15,6 +15,9 @@
 `import "math/rand"`
 - 
 
+## 文件操作
+- 
+
 # 第三类库
 
 ## hey
