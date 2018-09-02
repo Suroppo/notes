@@ -27,9 +27,14 @@ Systemd 可以管理所有系统资源。不同的资源统称为 Unit（单位�
 - 
 
 ## 常用命令--systemctl
-- `systemctl list-units` 
+- `systemctl list-units|list-unit-files` 列出单元|单元文件 
 - `systemctl is-enabled 单元名称` 检查某个单元是不是默认启动
 - `systemctl status 单元名称` 检查某个单元运行状态, 如过没有单元名称, 则显示所有单元状态
 - `systemctl start|stop|restart|reload 单元名称` 启动|停止|重启|重新加载 单元
 - `systemctl enable|disable 单元名称` 启用|禁用 随系统启动
+
+
+## timedatectl命令
+- `timedatectl status|set-time|set-timezone|list-timezones` 系统时间状态, 设置时间, 设置时区, 列出全部时区, 如: 把时区设为为中国上海时区`timedatectl set-timezone Asia/Shanghai`
+
 

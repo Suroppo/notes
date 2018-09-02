@@ -47,3 +47,7 @@ https://github.com/btcsuite/btcd
 ## xlsx
 https://github.com/tealeg/xlsx   
 用来读写xlsx的 Excel 文件格式
+
+## govalidator
+https://github.com/asaskevich/govalidator
+一个验证框架,验证数据是否符合特定格式的数据, 比如, email, 电话号码等, 可以以结构体标签的形式使用
