@@ -27,7 +27,7 @@ Systemd 可以管理所有系统资源。不同的资源统称为 Unit（单位�
 - 
 
 ## 常用命令--systemctl
-- `systemctl list-units|list-unit-files` 列出单元|单元文件, list-units：依据unit列出所有启动的unit。加上 –all 才会列出没启动的unit;  list-unit-files:依据/usr/lib/systemd/system/ 内的启动文件，列出启动文件列表
+- `systemctl list-units|list-unit-files` 列出单元|单元文件, list-units：依据unit列出所有启动的unit。加上 –all 才会列出没启动的unit;  list-unit-files:依据/usr/lib/systemd/system/ 内的配置文件，列出配置文件列表
 - `systemctl is-enabled 单元名称` 检查某个单元是不是默认启动
 - `systemctl status 单元名称` 检查某个单元运行状态, 如过没有单元名称, 则显示所有单元状态
 - `systemctl start|stop|restart|reload 单元名称` 启动|停止|重启|重新加载 单元
