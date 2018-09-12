@@ -51,3 +51,7 @@ https://github.com/tealeg/xlsx
 ## govalidator
 https://github.com/asaskevich/govalidator
 一个验证框架,验证数据是否符合特定格式的数据, 比如, email, 电话号码等, 可以以结构体标签的形式使用
+
+## gowin32
+https://github.com/winlabs/gowin32
+一个基于Windows SDK 7.1的win32 API的包装器, 方便go对系统API的调用.
